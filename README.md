@@ -1,5 +1,6 @@
 # My First Repository
-This is a sample of a good README.md file that can be used when describing a project. You can change the headings to fit your needs, but the idea is to provide a summart of the project, the files used, programs written, and how to execute the program. Think of this as documentation.
+
+This is my first repository, where I will be talking about my BAIS introductory class project.  
 
 ## Table of contents
 
@@ -7,33 +8,22 @@ This is a sample of a good README.md file that can be used when describing a pro
 - [DESCRIPTION](#Description)
 - [TOOLS USED](#Tools-used)
 - [FILES USED](#files-used)
-- [HOW TO RUN PROGRAM](how-to-run-program)
 - [ADDITIONAL INFORMATION](#additional-information)
 
   ## Project Title
 
-  *Hello World Sample - My First Repository*
+  *Corn Production in Kenya*
 
   ## Description
 
-  Practice using GitHub by creating a sample repository. Make sure you add a description to help others understand your project. This should explain in detail what you did in this prokect, what you accomplished, outcomes, results, so on. Make this a couple of paragraphs.
-
+We set out to find which farmer and farm‑level characteristics best explain variation in corn yield among smallholder farmers in Taita Taveta County, Kenya. The final regression model shows that Age is the only variable that consistently and significantly predicts corn yield in the dataset. All other variables—gender, education, farm size, fertilizer use, laborers, advisory sources, farm records—were removed step‑by‑step because they did not provide meaningful explanatory power once Age was included.
+ 
   ## Tools Used
 
-  Discussed all programming languages and tools used in this project. This could include Python, SQL, Excel, Power BI, Websites, and more.
+We used multiple linear regression with dummy variables (e.g., education levels and advisory channels) and then conducts stepwise removals of non‑significant predictors to test robustness.
+The dependent variable is Yield (kg/acre); candidate predictors include Male, Age, education dummies (Secondary, Certificate, Diploma, Degree with Primary as the implicit baseline), Household size, Acreage, Fertilizer (kg/acre), Laborers, advisory dummies (Public Gatherings, Extension Services, Internet, Television), and Farm records.
 
   # Files Used
 
-  File names, what is in the files, URL Links to files
-
-  ## How to Run Program
-
-  STEP 1
-  STEP 2
-  STEP 3
-  STEP 4
-  STEP 5
-
-## Additional Information
-
-I am not entirely sure if I am doing this right. 
+Context & source. Cross‑sectional farm‑level data on corn production from Taita Taveta County, Kenya (2022), adapted from a Kaggle dataset. Variables cover farmer demographics (sex, age, education, household size), production factors (acreage, fertilizer use per acre, number of laborers), information channels (advisory source), record‑keeping, and yield (kg/acre). 
+Sample size. The regression worksheets report N = 250 observations.
